@@ -141,7 +141,6 @@ export function Slideshow() {
       setVisible(false)
       setTimeout(() => {
         setIndex(i => (i + 1) % IMAGES.length)
-        setVisible(true)
       }, 600)
     }, 4000)
     return () => clearInterval(id)
@@ -153,6 +152,7 @@ export function Slideshow() {
         <img
           src={IMAGES[index]}
           alt=""
+          onLoad={() => setVisible(true)}
           style={{
             width: '100%',
             height: '100%',

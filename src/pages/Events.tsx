@@ -33,7 +33,7 @@ export default function Events() {
               Beachside Welcome
             </h2>
             <p style={{ fontFamily: '"Playfair Display", serif', fontStyle: 'italic', fontSize: '0.9rem', color: '#78716c', margin: '0 0 6px' }}>
-              Thursday, June 26th, 2027
+              Thursday, June 24th, 2027
             </p>
             <p style={{ fontFamily: 'Georgia, serif', fontSize: '0.8rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: '#D4AF37', margin: 0 }}>
               Optional
@@ -49,6 +49,12 @@ export default function Events() {
             <h2 style={{ fontFamily: '"Playfair Display", serif', fontSize: 'clamp(1.2rem, 3vw, 1.6rem)', letterSpacing: '0.08em', color: '#2C2C2C', fontWeight: 400, margin: '0 0 8px' }}>
               The Wedding
             </h2>
+            <p style={{ fontFamily: '"Playfair Display", serif', fontStyle: 'italic', fontSize: '0.9rem', color: '#78716c', margin: '0 0 6px' }}>
+              Paliku Gardens at Kualoa Ranch
+            </p>
+            <p style={{ fontFamily: '"Playfair Display", serif', fontStyle: 'italic', fontSize: '0.9rem', color: '#78716c', margin: '0 0 6px' }}>
+              Kaneohe, Oahu, Hawaii
+            </p>
             <p style={{ fontFamily: '"Playfair Display", serif', fontStyle: 'italic', fontSize: '0.9rem', color: '#78716c', margin: 0 }}>
               Friday, June 25th, 2027
             </p>

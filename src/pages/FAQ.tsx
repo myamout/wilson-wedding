@@ -1,75 +1,112 @@
-import { StickyPhoto } from '@/components/StickyPhoto'
+import { StickyPhoto } from "@/components/StickyPhoto";
 
 const FAQS = [
   {
-    q: 'Where are the bride and groom staying?',
-    a: 'We will be staying in Ko Olina. There are a few hotels in Ko Olina. We will be staying at the Ko Olina Beach Villas Resort and moving to the XXX the following days after the Wedding Ceremony.',
+    q: "Where are the bride and groom staying?",
+    a: "We will be staying in Ko Olina. There are a few hotels in Ko Olina. We will be staying at the Ko Olina Beach Villas Resort.",
   },
   {
-    q: 'Where should I stay?',
-    a: 'While there are many options to choose from based on preferences, see the Travel section of the website for a full list of recommendations.',
+    q: "Where should I stay?",
+    a: "While there are many options to choose from based on preferences, see the Travel section of the website for a full list of recommendations.",
   },
   {
-    q: 'Who can I bring?',
-    a: 'Please refer to your invitation for your invited guests and any designated +1s. Due to venue capacity and our desire to keep the celebration intimate, we\'re only able to accommodate those specifically listed on the invitation, including children if noted. Please reach out to me if further clarification is needed.',
+    q: "Who can I bring?",
+    a: "Please refer to your invitation for your invited guests and any designated +1s. Due to venue capacity and our desire to keep the celebration intimate, we're only able to accommodate those specifically listed on the invitation, including children if noted. Please reach out to me if further clarification is needed.",
   },
   {
-    q: 'What time should I arrive at the Ceremony?',
-    a: 'Our ceremony will begin promptly at 4:30 PM. We kindly ask guests to arrive early enough to be seated before the ceremony begins to avoid interruptions. Please note there may be a short walk from the drop-off area to the ceremony and reception space, so we recommend allowing a little extra time to get settled.',
+    q: "What time should I arrive at the Ceremony?",
+    a: "Our ceremony will begin promptly at 4:30 PM. We kindly ask guests to arrive early enough to be seated before the ceremony begins to avoid interruptions. Please note there may be a short walk from the drop-off area to the ceremony and reception space, so we recommend allowing a little extra time to get settled.",
   },
   {
-    q: 'What should I do if I can\'t make it?',
+    q: "What should I do if I can't make it?",
     a: 'You will be missed! If you can not make it to the wedding, please let us know as soon as possible and RSVP "no," so we can plan accordingly.',
   },
   {
-    q: 'Is the wedding indoors or outdoors?',
-    a: 'Our wedding ceremony is outdoors and our reception will be outside under a covered tent.',
+    q: "Is the wedding indoors or outdoors?",
+    a: "Our wedding ceremony is outdoors and our reception will be outside under a covered tent.",
   },
   {
-    q: 'What kind of shoes should/shouldn\'t I wear?',
-    a: 'Calling all ladies! Do not wear stiletto or high heels. I repeat, do not wear stiletto or high heels. The wedding is outside on grass that may make walking in high heels difficult. Also, we want you saving your feet for the dance floor!',
+    q: "What kind of shoes should/shouldn't I wear?",
+    a: "Calling all ladies! Do not wear stiletto or high heels. I repeat, do not wear stiletto or high heels. The wedding is outside on grass that may make walking in high heels difficult. Also, we want you saving your feet for the dance floor!",
   },
   {
-    q: 'How can I get to the venue and back?',
-    a: 'We will be providing shuttle transportation to and from the wedding from certain locations. Please see the Events for more details.\n\nParking is also an option. Specific parking is available in the three levels to the right of the venue roadway and includes specified guest parking signs. Guests should not use the main ranch parking due to the vast distance from the venue itself. Please note that overnight parking of vehicles is prohibited.\n\nWe are unsure how reliable ubers or other means of transportation will be on the island and the wedding reception is a bit secluded from towns so please be prepared.',
+    q: "How can I get to the venue and back?",
+    a: "We will be providing shuttle transportation to and from the wedding from certain locations. Please see the Events for more details.\n\nParking is also an option. Specific parking is available in the three levels to the right of the venue roadway and includes specified guest parking signs. Guests should not use the main ranch parking due to the vast distance from the venue itself. Please note that overnight parking of vehicles is prohibited.\n\nWe are unsure how reliable ubers or other means of transportation will be on the island and the wedding reception is a bit secluded from towns so please be prepared.",
   },
   {
-    q: 'What if I have a dietary restriction?',
-    a: 'Please notify us of any dietary restrictions or food allergies when you RSVP. If this was missed, feel free to contact me directly.',
+    q: "What if I have a dietary restriction?",
+    a: "Please notify us of any dietary restrictions or food allergies when you RSVP. If this was missed, feel free to contact me directly.",
   },
   {
-    q: 'Can I take photos during the wedding?',
-    a: 'We kindly ask that guests refrain from taking photos during the ceremony so everyone can be fully present and our photographer can capture the moment. Once the ceremony concludes, please feel free to take photos throughout the rest of the celebration and share away.',
+    q: "Can I take photos during the wedding?",
+    a: "We kindly ask that guests refrain from taking photos during the ceremony so everyone can be fully present and our photographer can capture the moment. Once the ceremony concludes, please feel free to take photos throughout the rest of the celebration and share away.",
   },
   {
-    q: 'What time will the reception end?',
-    a: 'The reception will end promptly at 10:00 PM.',
+    q: "What time will the reception end?",
+    a: "The reception will end promptly at 10:00 PM.",
   },
   {
-    q: 'Whom should I ask with questions?',
-    a: 'Please text Alli at (831) 214-7576 or email at agwilsonwedding@gmail.com',
+    q: "Whom should I ask with questions?",
+    a: "Please text Alli at (831) 214-7576 or email at agwilsonwedding@gmail.com",
   },
-]
+];
 
 export default function FAQ() {
   return (
-    <div style={{ paddingTop: '130px', minHeight: '100vh', backgroundColor: '#fff' }}>
-      <div style={{ display: 'flex', alignItems: 'flex-start' }}>
-
+    <div
+      style={{
+        paddingTop: "130px",
+        minHeight: "100vh",
+        backgroundColor: "#fff",
+      }}
+    >
+      <div style={{ display: "flex", alignItems: "flex-start" }}>
         <StickyPhoto src="/images/slideshow/DSCF3981.JPG" side="left" />
 
         {/* Content */}
-        <div style={{ flex: 1, maxWidth: '720px', margin: '0 auto', padding: '48px 24px 80px' }}>
-
+        <div
+          style={{
+            flex: 1,
+            maxWidth: "720px",
+            margin: "0 auto",
+            padding: "48px 24px 80px",
+          }}
+        >
           {/* Page heading */}
-          <div style={{ textAlign: 'center', marginBottom: '56px' }}>
-            <p style={{ fontFamily: '"Playfair Display", serif', fontSize: '0.7rem', letterSpacing: '0.3em', textTransform: 'uppercase', color: '#D4AF37', margin: '0 0 12px' }}>
+          <div style={{ textAlign: "center", marginBottom: "56px" }}>
+            <p
+              style={{
+                fontFamily: '"Playfair Display", serif',
+                fontSize: "0.7rem",
+                letterSpacing: "0.3em",
+                textTransform: "uppercase",
+                color: "#D4AF37",
+                margin: "0 0 12px",
+              }}
+            >
               Wilson Wedding
             </p>
-            <h1 style={{ fontFamily: '"Playfair Display", serif', fontSize: 'clamp(1.4rem, 4vw, 2.2rem)', letterSpacing: 'clamp(0.06em, 1.5vw, 0.12em)', textTransform: 'uppercase', color: '#2C2C2C', fontWeight: 400, margin: '0 0 20px' }}>
+            <h1
+              style={{
+                fontFamily: '"Playfair Display", serif',
+                fontSize: "clamp(1.4rem, 4vw, 2.2rem)",
+                letterSpacing: "clamp(0.06em, 1.5vw, 0.12em)",
+                textTransform: "uppercase",
+                color: "#2C2C2C",
+                fontWeight: 400,
+                margin: "0 0 20px",
+              }}
+            >
               Frequently Asked Questions
             </h1>
-            <div style={{ width: '48px', height: '1px', backgroundColor: '#D4AF37', margin: '0 auto' }} />
+            <div
+              style={{
+                width: "48px",
+                height: "1px",
+                backgroundColor: "#D4AF37",
+                margin: "0 auto",
+              }}
+            />
           </div>
 
           {/* FAQ list */}
@@ -78,42 +115,45 @@ export default function FAQ() {
               <div
                 key={i}
                 style={{
-                  borderTop: i === 0 ? '1px solid #e7e5e4' : undefined,
-                  borderBottom: '1px solid #e7e5e4',
-                  padding: '28px 0',
+                  borderTop: i === 0 ? "1px solid #e7e5e4" : undefined,
+                  borderBottom: "1px solid #e7e5e4",
+                  padding: "28px 0",
                 }}
               >
-                <h3 style={{
-                  fontFamily: '"Playfair Display", serif',
-                  fontSize: '1rem',
-                  letterSpacing: '0.04em',
-                  color: '#2C2C2C',
-                  fontWeight: 600,
-                  margin: '0 0 12px',
-                  lineHeight: 1.5,
-                }}>
+                <h3
+                  style={{
+                    fontFamily: '"Playfair Display", serif',
+                    fontSize: "1rem",
+                    letterSpacing: "0.04em",
+                    color: "#2C2C2C",
+                    fontWeight: 600,
+                    margin: "0 0 12px",
+                    lineHeight: 1.5,
+                  }}
+                >
                   {item.q}
                 </h3>
-                {item.a.split('\n\n').map((para, j) => (
-                  <p key={j} style={{
-                    fontFamily: 'Georgia, serif',
-                    fontSize: '0.9rem',
-                    lineHeight: 1.75,
-                    color: '#78716c',
-                    margin: j === 0 ? 0 : '12px 0 0',
-                  }}>
+                {item.a.split("\n\n").map((para, j) => (
+                  <p
+                    key={j}
+                    style={{
+                      fontFamily: "Georgia, serif",
+                      fontSize: "0.9rem",
+                      lineHeight: 1.75,
+                      color: "#78716c",
+                      margin: j === 0 ? 0 : "12px 0 0",
+                    }}
+                  >
                     {para}
                   </p>
                 ))}
               </div>
             ))}
           </div>
-
         </div>
 
         <StickyPhoto src="/images/slideshow/DSCF5686.jpeg" side="right" />
-
       </div>
     </div>
-  )
+  );
 }

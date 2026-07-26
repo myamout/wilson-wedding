@@ -1,12 +1,5 @@
 import { StickyPhoto } from '@/components/StickyPhoto'
 
-const SCHEDULE = [
-  { time: 'Welcome Bubbles', hours: '3:45 PM – 4:15 PM' },
-  { time: 'Ceremony', hours: '4:30 PM – 5:00 PM' },
-  { time: 'Cocktail Hour', hours: '5:00 PM – 6:00 PM' },
-  { time: 'Dinner', hours: '6:00 PM – 7:00 PM' },
-  { time: 'Dancing & Celebration', hours: '7:00 PM – 10:00 PM' },
-]
 
 export default function Events() {
   return (

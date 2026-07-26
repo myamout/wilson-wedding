@@ -172,12 +172,16 @@ export default function Travel() {
           <Body>
             Waikiki has the widest range of hotel options on Oahu, from luxury beachfront resorts to more budget-friendly stays. There are also some condo-style Airbnb options, though hotels are the most common and easiest choice here.
           </Body>
+          <div style={{ marginTop: '24px' }}>
+            <HotelCard name="Sheraton Waikiki Beach Resort" />
+            <HotelCard name="Outrigger Waikiki Beach Resort" />
+          </div>
         </div>
 
         <SectionDivider />
 
         {/* Shuttle */}
-        <SectionHeader eyebrow="Getting to the Venue" title="Shuttle Service" />
+        <SectionHeader eyebrow="Getting to the Venue" title="Shuttle Services for the Wedding Venue" />
         <Body>
           Because our wedding venue, Kualoa Ranch, is located on the windward side of the island and is more secluded from major hotels and tourist areas, we will be providing shuttle transportation for guests. At minimum, there will be a shuttle from Waikiki, and we are also exploring additional shuttle service from Ko Olina depending on guest accommodations. More detailed timing and pick-up locations will be shared as the date gets closer.
         </Body>

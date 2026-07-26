@@ -8,6 +8,19 @@ export default function RSVP() {
           </h1>
           <div style={{ width: '48px', height: '1px', backgroundColor: '#D4AF37', margin: '0 auto' }} />
         </div>
+        <style>{`
+          .rsvp-iframe { height: 900px; }
+          @media (max-width: 768px) { .rsvp-iframe { height: 1400px; } }
+        `}</style>
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSfsUeTaPzBP9PeDqtSzvAJiQS013e9tUso6_8yyFB4zkeN7Bw/viewform?embedded=true"
+          width="100%"
+          className="rsvp-iframe"
+          style={{ border: 'none', display: 'block' }}
+          title="RSVP Form"
+        >
+          Loading…
+        </iframe>
       </div>
     </div>
   )

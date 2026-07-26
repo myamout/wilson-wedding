@@ -35,8 +35,11 @@ export default function Events() {
             <p style={{ fontFamily: '"Playfair Display", serif', fontStyle: 'italic', fontSize: '0.9rem', color: '#78716c', margin: '0 0 6px' }}>
               Thursday, June 24th, 2027
             </p>
-            <p style={{ fontFamily: 'Georgia, serif', fontSize: '0.8rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: '#D4AF37', margin: 0 }}>
+            <p style={{ fontFamily: 'Georgia, serif', fontSize: '0.8rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: '#D4AF37', margin: '0 0 16px' }}>
               Optional
+            </p>
+            <p style={{ fontFamily: 'Georgia, serif', fontStyle: 'italic', fontSize: '0.9rem', color: '#78716c', textAlign: 'center', margin: 0 }}>
+              Details to come
             </p>
           </div>
         </div>
@@ -60,29 +63,9 @@ export default function Events() {
             </p>
           </div>
 
-          {/* Schedule */}
-          <div style={{ maxWidth: '420px', margin: '0 auto' }}>
-            {SCHEDULE.map((item, i) => (
-              <div
-                key={i}
-                style={{
-                  display: 'flex',
-                  justifyContent: 'space-between',
-                  alignItems: 'baseline',
-                  padding: '14px 0',
-                  borderBottom: i < SCHEDULE.length - 1 ? '1px solid #f0eeec' : undefined,
-                  gap: '16px',
-                }}
-              >
-                <span style={{ fontFamily: '"Playfair Display", serif', fontSize: '0.95rem', color: '#2C2C2C', letterSpacing: '0.02em' }}>
-                  {item.time}
-                </span>
-                <span style={{ fontFamily: 'Georgia, serif', fontSize: '0.85rem', color: '#78716c', whiteSpace: 'nowrap' }}>
-                  {item.hours}
-                </span>
-              </div>
-            ))}
-          </div>
+          <p style={{ fontFamily: 'Georgia, serif', fontStyle: 'italic', fontSize: '0.9rem', color: '#78716c', textAlign: 'center', margin: 0 }}>
+            Details to come
+          </p>
         </div>
 
         <div style={{ width: '100%', height: '1px', backgroundColor: '#e7e5e4', marginBottom: '56px' }} />
@@ -96,7 +79,7 @@ export default function Events() {
             <div style={{ width: '32px', height: '1px', backgroundColor: '#D4AF37', margin: '0 auto' }} />
           </div>
           <p style={{ fontFamily: 'Georgia, serif', fontSize: '0.9rem', lineHeight: 1.8, color: '#78716c', margin: 0, textAlign: 'center' }}>
-            The dress code for our wedding is tropical cocktail attire / semi-formal. Ladies are encouraged to wear long, colorful dresses, and gentlemen should wear a suit and tie. Since the ceremony will take place on grass at Kualoa Ranch, we recommend sandals, wedges, flats, or thicker heels for women. Gentlemen, we kindly ask that shorts, flip-flops, and Hawaiian shirts stay back at the hotel for this one.
+            The dress code for our wedding is tropical cocktail attire / semi-formal. Ladies are encouraged to wear long, colorful dresses, and gentlemen should wear business formal with button downs and dress pants. Since the ceremony will take place on grass at Kualoa Ranch, we recommend sandals, wedges, flats, or thicker heels for women. Gentlemen, we kindly ask that shorts, flip-flops, and Hawaiian shirts stay back at the hotel for this one.
           </p>
         </div>
 

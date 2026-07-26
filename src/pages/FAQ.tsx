@@ -3,15 +3,15 @@ import { StickyPhoto } from '@/components/StickyPhoto'
 const FAQS = [
   {
     q: 'Where are the bride and groom staying?',
-    a: 'We will be staying in Ko Olina. There are a few hotels in Ko Olina — we will be at the Ko Olina Beach Villas Resort, then moving to the XXX the following days after the Wedding Ceremony.',
+    a: 'We will be staying in Ko Olina. There are a few hotels in Ko Olina. We will be staying at the Ko Olina Beach Villas Resort and moving to the XXX the following days after the Wedding Ceremony.',
   },
   {
     q: 'Where should I stay?',
-    a: 'There are many options depending on your preferences. Please see the Travel section of the website for a full list of recommendations.',
+    a: 'While there are many options to choose from based on preferences, see the Travel section of the website for a full list of recommendations.',
   },
   {
     q: 'Who can I bring?',
-    a: 'Please refer to your invitation for your invited guests and any designated +1s. Due to venue capacity and our desire to keep the celebration intimate, we\'re only able to accommodate those specifically listed on the invitation, including children if noted. Please reach out if further clarification is needed.',
+    a: 'Please refer to your invitation for your invited guests and any designated +1s. Due to venue capacity and our desire to keep the celebration intimate, we\'re only able to accommodate those specifically listed on the invitation, including children if noted. Please reach out to me if further clarification is needed.',
   },
   {
     q: 'What time should I arrive at the Ceremony?',
@@ -19,35 +19,35 @@ const FAQS = [
   },
   {
     q: 'What should I do if I can\'t make it?',
-    a: 'You will be missed! If you are unable to attend, please let us know as soon as possible and RSVP "no" so we can plan accordingly.',
+    a: 'You will be missed! If you can not make it to the wedding, please let us know as soon as possible and RSVP "no," so we can plan accordingly.',
   },
   {
     q: 'Is the wedding indoors or outdoors?',
-    a: 'The ceremony is outdoors and the reception will be outside under a covered tent.',
+    a: 'Our wedding ceremony is outdoors and our reception will be outside under a covered tent.',
   },
   {
-    q: 'What kind of shoes should I wear?',
-    a: 'Calling all ladies — do not wear stilettos or high heels. The wedding is outside on grass, which can make walking in high heels difficult. Save your feet for the dance floor!',
+    q: 'What kind of shoes should/shouldn\'t I wear?',
+    a: 'Calling all ladies! Do not wear stiletto or high heels. I repeat, do not wear stiletto or high heels. The wedding is outside on grass that may make walking in high heels difficult. Also, we want you saving your feet for the dance floor!',
   },
   {
     q: 'How can I get to the venue and back?',
-    a: 'We will be providing shuttle transportation to and from the wedding from certain locations — please see the Events page for details.\n\nParking is also available on the three levels to the right of the venue roadway; look for the guest parking signs. Please do not use the main ranch parking as it is a considerable distance from the venue, and note that overnight parking is prohibited. We will also be offering a complimentary shuttle picking up and dropping off guests at the ZYX.\n\nWe are unsure how reliable rideshares will be in this area, as the reception is a bit secluded from town, so please plan ahead.',
+    a: 'We will be providing shuttle transportation to and from the wedding from certain locations. Please see the Events for more details.\n\nParking is also an option. Specific parking is available in the three levels to the right of the venue roadway and includes specified guest parking signs. Guests should not use the main ranch parking due to the vast distance from the venue itself. Please note that overnight parking of vehicles is prohibited.\n\nWe are unsure how reliable ubers or other means of transportation will be on the island and the wedding reception is a bit secluded from towns so please be prepared.',
   },
   {
     q: 'What if I have a dietary restriction?',
-    a: 'Please notify us of any dietary restrictions or food allergies when you RSVP. If you missed that, feel free to contact us directly.',
+    a: 'Please notify us of any dietary restrictions or food allergies when you RSVP. If this was missed, feel free to contact me directly.',
   },
   {
     q: 'Can I take photos during the wedding?',
-    a: 'We kindly ask that guests refrain from taking photos during the ceremony so everyone can be fully present and our photographer can capture the moment. Once the ceremony concludes, please feel free to take photos and share away throughout the rest of the celebration.',
+    a: 'We kindly ask that guests refrain from taking photos during the ceremony so everyone can be fully present and our photographer can capture the moment. Once the ceremony concludes, please feel free to take photos throughout the rest of the celebration and share away.',
   },
   {
     q: 'What time will the reception end?',
-    a: 'The reception will end promptly at 10:00 PM. The shuttle to Waikiki and Ko Olina will depart at XXX PM.',
+    a: 'The reception will end promptly at 10:00 PM.',
   },
   {
-    q: 'Who should I contact with questions?',
-    a: 'Please text Alli at (831) 214-7576.',
+    q: 'Whom should I ask with questions?',
+    a: 'Please text Alli at (831) 214-7576 or email at agwilsonwedding@gmail.com',
   },
 ]
 
